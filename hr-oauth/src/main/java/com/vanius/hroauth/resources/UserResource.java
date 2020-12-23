@@ -1,4 +1,4 @@
-package com.vaniusmax.hroauth.resources;
+package com.vanius.hroauth.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vaniusmax.hroauth.entities.User;
-import com.vaniusmax.hroauth.services.UserService;
+import com.vanius.hroauth.entities.User;
+import com.vanius.hroauth.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")

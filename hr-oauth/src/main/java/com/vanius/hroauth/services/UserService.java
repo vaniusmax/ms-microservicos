@@ -1,4 +1,4 @@
-package com.vaniusmax.hroauth.services;
+package com.vanius.hroauth.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.vaniusmax.hroauth.entities.User;
-import com.vaniusmax.hroauth.feignclients.UserFeignClient;
+import com.vanius.hroauth.entities.User;
+import com.vanius.hroauth.feignclients.UserFeignClient;
 
 @Service
 public class UserService implements UserDetailsService {

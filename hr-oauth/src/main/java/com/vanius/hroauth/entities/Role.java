@@ -1,4 +1,4 @@
-package com.vaniusmax.hroauth.entities;
+package com.vanius.hroauth.entities;
 
 import java.io.Serializable;
 
