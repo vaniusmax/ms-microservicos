@@ -37,8 +37,7 @@ public class WorkerResource {
 	
 	@GetMapping
 	public ResponseEntity<List<Worker>> findAll(){
-		List<Worker> list = repo.findAll();
-		
+		List<Worker> list = repo.findAll();		
 		return ResponseEntity.ok(list);
 	}
 	
